@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "307342285233",
+    "project_id": "seniorendienst2025",
+    "storage_bucket": "seniorendienst2025.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:307342285233:android:2f15ee500eec097bc18590",
+        "android_client_info": {
+          "package_name": "com.example.yasli_bakim_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBhZGtC4BcGXftQrh47c9NVr8QRWJujDCU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

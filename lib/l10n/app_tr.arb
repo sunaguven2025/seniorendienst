@@ -1,0 +1,29 @@
+{
+  "@@locale": "tr",
+
+  "appName": "Seniorendienst Suchannek",
+
+  "login": "Giriş Yap",
+  "logout": "Çıkış",
+
+  "username": "Kullanıcı Adı",
+  "password": "Şifre",
+  "rememberMe": "Beni Hatırla",
+
+  "dashboard": "Panel",
+
+  "patients": "Hastalar",
+  "staff": "Personeller",
+  "tasks": "Görevler",
+
+  "reports": "Raporlar",
+  "settings": "Ayarlar",
+
+  "save": "Kaydet",
+  "cancel": "İptal",
+  "delete": "Sil",
+  "edit": "Düzenle",
+
+  "yes": "Evet",
+  "no": "Hayır"
+}

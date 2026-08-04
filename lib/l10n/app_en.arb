@@ -1,0 +1,14 @@
+{
+  "@@locale": "en",
+  "appName": "Seniorendienst Suchannek",
+  "login": "Login",
+  "username": "Username",
+  "password": "Password",
+  "rememberMe": "Remember me",
+  "patients": "Patients",
+  "staff": "Staff",
+  "tasks": "Tasks",
+  "reports": "Reports",
+  "settings": "Settings",
+  "logout": "Logout"
+}

@@ -1,0 +1,14 @@
+{
+  "@@locale": "de",
+  "appName": "Seniorendienst Suchannek",
+  "login": "Anmelden",
+  "username": "Benutzername",
+  "password": "Passwort",
+  "rememberMe": "Angemeldet bleiben",
+  "patients": "Patienten",
+  "staff": "Mitarbeiter",
+  "tasks": "Aufgaben",
+  "reports": "Berichte",
+  "settings": "Einstellungen",
+  "logout": "Abmelden"
+}
