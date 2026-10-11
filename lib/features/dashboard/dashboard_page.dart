@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 import 'patient_list_page.dart';
-
+import '../tasks/task_list_page.dart';
 import 'staff_page.dart';
 
 class DashboardPage extends StatelessWidget {
@@ -11,7 +11,7 @@ class DashboardPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text("Seniorendienst Suchannek"),
+        title: const Text('Seniorendienst Suchannek'),
         backgroundColor: Colors.teal,
         foregroundColor: Colors.white,
         centerTitle: true,
@@ -26,7 +26,7 @@ class DashboardPage extends StatelessWidget {
             _menuCard(
               context: context,
               icon: Icons.elderly,
-              title: "Hastalar",
+              title: 'Hastalar',
               color: Colors.blue,
               onTap: () {
                 Navigator.push(
@@ -35,10 +35,11 @@ class DashboardPage extends StatelessWidget {
                 );
               },
             ),
+
             _menuCard(
               context: context,
               icon: Icons.people,
-              title: "Personeller",
+              title: 'Personeller',
               color: Colors.green,
               onTap: () {
                 Navigator.push(
@@ -47,49 +48,64 @@ class DashboardPage extends StatelessWidget {
                 );
               },
             ),
+
+            // =================================================
+            // GÖREVLER
+            // =================================================
             _menuCard(
               context: context,
               icon: Icons.calendar_month,
-              title: "Görevler",
+              title: 'Görevler',
               color: Colors.orange,
               onTap: () {
-                ScaffoldMessenger.of(context).showSnackBar(
-                  const SnackBar(
-                    content: Text("Görevler modülü yakında eklenecek."),
-                  ),
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (_) => const TaskListPage()),
                 );
               },
             ),
+
+            // =================================================
+            // RAPORLAR
+            // =================================================
             _menuCard(
               context: context,
               icon: Icons.description,
-              title: "Raporlar",
+              title: 'Raporlar',
               color: Colors.purple,
               onTap: () {
                 ScaffoldMessenger.of(context).showSnackBar(
                   const SnackBar(
-                    content: Text("Raporlar modülü yakında eklenecek."),
+                    content: Text('Raporlar modülü yakında eklenecek.'),
                   ),
                 );
               },
             ),
+
+            // =================================================
+            // AYARLAR
+            // =================================================
             _menuCard(
               context: context,
               icon: Icons.settings,
-              title: "Ayarlar",
+              title: 'Ayarlar',
               color: Colors.grey,
               onTap: () {
                 ScaffoldMessenger.of(context).showSnackBar(
                   const SnackBar(
-                    content: Text("Ayarlar sayfası yakında eklenecek."),
+                    content: Text('Ayarlar sayfası yakında eklenecek.'),
                   ),
                 );
               },
             ),
+
+            // =================================================
+            // ÇIKIŞ
+            // =================================================
             _menuCard(
               context: context,
               icon: Icons.logout,
-              title: "Çıkış",
+              title: 'Çıkış',
               color: Colors.red,
               onTap: () {
                 Navigator.pop(context);
